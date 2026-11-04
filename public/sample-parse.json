@@ -1,0 +1,1872 @@
+{
+  "schemaVersion": 4,
+  "root": "/home/bhlim/mystackcode/rookie-cartograph-zed",
+  "projects": [
+    {
+      "path": ".",
+      "adapter": "Next.js"
+    }
+  ],
+  "files": [
+    {
+      "path": "app/(workspace)/action.ts",
+      "module": "app/(workspace)",
+      "lines": 143,
+      "bytes": 4693,
+      "hash": "ea8520800ee82f7c2a62560eb16e7411c18175a461fdaebb359d5b961dc026b3",
+      "fanIn": 2,
+      "fanOut": 6,
+      "reachedBy": null,
+      "role": "server-action",
+      "exports": [
+        "FormState",
+        "InviteState",
+        "inviteMember",
+        "submitAnalysis",
+        "rerunAnalysis"
+      ]
+    },
+    {
+      "path": "app/(workspace)/layout.tsx",
+      "module": "app/(workspace)",
+      "lines": 38,
+      "bytes": 1466,
+      "hash": "e5376827ef605bc90aa49455519445ca13c43d395ed83a4f117e742acd84dc49",
+      "fanIn": 0,
+      "fanOut": 2,
+      "reachedBy": "Next.js layout",
+      "role": "layout",
+      "exports": [
+        "default"
+      ]
+    },
+    {
+      "path": "app/(workspace)/page.tsx",
+      "module": "app/(workspace)",
+      "lines": 147,
+      "bytes": 5242,
+      "hash": "61c45951dff57ef0eb76e3294a128c9cddd9d13b209a8df11d1877bdffbe35bd",
+      "fanIn": 0,
+      "fanOut": 6,
+      "reachedBy": "Next.js page",
+      "role": "page-route",
+      "exports": [
+        "instant",
+        "default"
+      ]
+    },
+    {
+      "path": "app/layout.tsx",
+      "module": "app",
+      "lines": 56,
+      "bytes": 1615,
+      "hash": "5c094a2e327c13176516f96bb0212d8e1b47a0577d0ab98ff0ad5709d704771b",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": "Next.js layout",
+      "role": "layout",
+      "exports": [
+        "metadata",
+        "default"
+      ]
+    },
+    {
+      "path": "app/sign-in/[[...sign-in]]/page.tsx",
+      "module": "app/sign-in/[[...sign-in]]",
+      "lines": 9,
+      "bytes": 188,
+      "hash": "8f819f7be89a23732e167e772a56c5e0f8c668d1434ba71f467648d72cbbcf91",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": "Next.js page",
+      "role": "page-route",
+      "exports": [
+        "default"
+      ]
+    },
+    {
+      "path": "app/sign-up/[[...sign-up]]/page.tsx",
+      "module": "app/sign-up/[[...sign-up]]",
+      "lines": 9,
+      "bytes": 188,
+      "hash": "ecc1ffa7e19c081faa42a427b2b57c8ba99bd63bf66d8b4c001f9164526b5656",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": "Next.js page",
+      "role": "page-route",
+      "exports": [
+        "default"
+      ]
+    },
+    {
+      "path": "app/start/action.ts",
+      "module": "app/start",
+      "lines": 58,
+      "bytes": 1737,
+      "hash": "643747b72aa4926fd4f551cd14d446e3bdcb697a94bcf9d36f7d8d7b0f4fd390",
+      "fanIn": 1,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": "server-action",
+      "exports": [
+        "ResolveOrganizationResult",
+        "resolveOrganization"
+      ]
+    },
+    {
+      "path": "app/start/activate.tsx",
+      "module": "app/start",
+      "lines": 187,
+      "bytes": 5746,
+      "hash": "032fa51812cfe65351db2387e7c05ce07016387b72216fbc48563a75dc736b2a",
+      "fanIn": 1,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "Activate"
+      ]
+    },
+    {
+      "path": "app/start/page.tsx",
+      "module": "app/start",
+      "lines": 22,
+      "bytes": 447,
+      "hash": "2cde64c713a0481c7ed31a2915feaeb23ed961dc235284e58e8055e1c34d764a",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": "Next.js page",
+      "role": "page-route",
+      "exports": [
+        "instant",
+        "default"
+      ]
+    },
+    {
+      "path": "components/auth-shell.tsx",
+      "module": "components",
+      "lines": 32,
+      "bytes": 994,
+      "hash": "5ee690abd9051930b5010c54ef4453c24507abf2916cfd3f153c13e3a5674989",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "AuthShell"
+      ]
+    },
+    {
+      "path": "components/brand.tsx",
+      "module": "components",
+      "lines": 55,
+      "bytes": 1329,
+      "hash": "e648d211bd4d609a2d901ed7c7ebbb1314ae64acb60f7406032f0a6629c43d92",
+      "fanIn": 2,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "BrandMark",
+        "Brand"
+      ]
+    },
+    {
+      "path": "components/invite-form.tsx",
+      "module": "components",
+      "lines": 81,
+      "bytes": 2708,
+      "hash": "3db75f0de3000e537afbd5202ae83d28d3e58d729c28875fa14a32381f3930c0",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "InviteForm"
+      ]
+    },
+    {
+      "path": "components/organization-refresh.tsx",
+      "module": "components",
+      "lines": 35,
+      "bytes": 955,
+      "hash": "9b7c4da79e55e5ae03fd37f1bcb9c7451e407f94013290c6ed77c7e015a0d19c",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "OrganizationRefresh"
+      ]
+    },
+    {
+      "path": "components/progress/analysis-row.tsx",
+      "module": "components/progress",
+      "lines": 89,
+      "bytes": 3093,
+      "hash": "14787de411190c52345f5a54f55e3551278ce09603fb42089b6c4acaba58ba9c",
+      "fanIn": 1,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "RowData",
+        "AnalysisRow"
+      ]
+    },
+    {
+      "path": "components/progress/use-progress.ts",
+      "module": "components/progress",
+      "lines": 96,
+      "bytes": 3491,
+      "hash": "c145cc021fbbab54a1e7e0cbbc3a1bb9690bba5d27a0d32a4bdeae77467d588e",
+      "fanIn": 1,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": "hook",
+      "exports": [
+        "useProgress",
+        "sameProgress"
+      ]
+    },
+    {
+      "path": "components/sidebar-nav.tsx",
+      "module": "components",
+      "lines": 41,
+      "bytes": 1155,
+      "hash": "2d3ede07419a5671235053ac3f95de67e8ac59d573e1718f2caf8a272f00fa9b",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "SidebarNav"
+      ]
+    },
+    {
+      "path": "components/state-mark.tsx",
+      "module": "components",
+      "lines": 46,
+      "bytes": 1328,
+      "hash": "ffdb596ac68a9988278de751386c448b38f82f19f2fa68088e2218a5f30a777b",
+      "fanIn": 2,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "StateMark"
+      ]
+    },
+    {
+      "path": "components/submit-form.tsx",
+      "module": "components",
+      "lines": 36,
+      "bytes": 1170,
+      "hash": "7e9b9f8a1b1921a481ee71778d6d3fc1ebf7b20e6d3041f19d077a07d2cbddfb",
+      "fanIn": 1,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "SubmitForm"
+      ]
+    },
+    {
+      "path": "components/theme-control.tsx",
+      "module": "components",
+      "lines": 41,
+      "bytes": 1060,
+      "hash": "72509849cdae09cfbb0c61bba828ed9964e79b805526fb08335e78f4291a1581",
+      "fanIn": 1,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": "component",
+      "exports": [
+        "ThemeControl"
+      ]
+    },
+    {
+      "path": "eslint.config.mjs",
+      "module": ".",
+      "lines": 18,
+      "bytes": 465,
+      "hash": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": "config file, loaded by its tool",
+      "role": "config",
+      "exports": [
+        "default"
+      ]
+    },
+    {
+      "path": "lib/clerk-appearance.ts",
+      "module": "lib",
+      "lines": 24,
+      "bytes": 862,
+      "hash": "973e5171d5716e5bcd62893a272be41769cd95f443aee999fcc2eff41aeb1283",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "clerkAppearance"
+      ]
+    },
+    {
+      "path": "lib/env.ts",
+      "module": "lib",
+      "lines": 32,
+      "bytes": 1077,
+      "hash": "139ce69b8ba1e12638799002ad625f6a262beccf773401e8fc8aa95892cd68f3",
+      "fanIn": 3,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "assertEnv",
+        "env"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/conventions.ts",
+      "module": "lib/parser/adapters",
+      "lines": 48,
+      "bytes": 1441,
+      "hash": "023923aa83d34bee2af539ef372c3cbd2fb06f6e3b4898862df825ac07427fe8",
+      "fanIn": 6,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "toolConventions",
+        "toolRole"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/docusaurus.ts",
+      "module": "lib/parser/adapters",
+      "lines": 36,
+      "bytes": 1454,
+      "hash": "5910b5a3aa764c39ab49092e49bea17004c50234a7402b41b589d3541fe5d133",
+      "fanIn": 1,
+      "fanOut": 4,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "docusaurusAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/express.ts",
+      "module": "lib/parser/adapters",
+      "lines": 50,
+      "bytes": 1756,
+      "hash": "0af8785020b4930f6d9ed67ef76885b3cc82e157da22d03a111241555a95d8ac",
+      "fanIn": 1,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "expressAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/fallback.ts",
+      "module": "lib/parser/adapters",
+      "lines": 14,
+      "bytes": 551,
+      "hash": "e3e43f6d33e3d8b9cc32ab03fa94a1f48ccd20df58c9fb1540d446a66ebc48d3",
+      "fanIn": 2,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "fallbackAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/index.ts",
+      "module": "lib/parser/adapters",
+      "lines": 26,
+      "bytes": 972,
+      "hash": "4da4475f83fbfedc4cf104c4781ce8f4e01913c4be52f19f5cf7b40f4c0a18e3",
+      "fanIn": 1,
+      "fanOut": 7,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "selectAdapter",
+        "FrameworkAdapter",
+        "ProjectInfo"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/nestjs.ts",
+      "module": "lib/parser/adapters",
+      "lines": 256,
+      "bytes": 8394,
+      "hash": "5f49892a2a8b1c4dfaf41a68ac98314589650669defd2ffd03473010c27799d7",
+      "fanIn": 1,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "nestjsAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/nextjs.ts",
+      "module": "lib/parser/adapters",
+      "lines": 309,
+      "bytes": 11515,
+      "hash": "ae0145cb2865d02e7e76aeddcfc47e9b077ce16407b70c8d69d48656a137715a",
+      "fanIn": 1,
+      "fanOut": 4,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "nextjsAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/react.ts",
+      "module": "lib/parser/adapters",
+      "lines": 38,
+      "bytes": 1380,
+      "hash": "91b0237afde047231e0bd275ebb1e89e4e5a5dca7f4fabc0683362c3ff73719d",
+      "fanIn": 3,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "reactRole",
+        "reactAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/adapters/types.ts",
+      "module": "lib/parser/adapters",
+      "lines": 77,
+      "bytes": 2865,
+      "hash": "ad6067b76f569e9cfde240b9c486d01b5703a478169ad5c9c2985ba877be5e3f",
+      "fanIn": 8,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "ProjectInfo",
+        "AdapterFile",
+        "ProjectFiles",
+        "AdapterRoute",
+        "RouteReport",
+        "NO_ROUTES",
+        "FrameworkAdapter"
+      ]
+    },
+    {
+      "path": "lib/parser/contract.ts",
+      "module": "lib/parser",
+      "lines": 652,
+      "bytes": 20407,
+      "hash": "d70ceb645d439bc17f715332b8d1ec43e90c8c2e6936ef20cb4471eb210514ed",
+      "fanIn": 4,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "serializeParseResult",
+        "deserializeParseResult",
+        "validateParseResult",
+        "ContractError"
+      ]
+    },
+    {
+      "path": "lib/parser/extract.ts",
+      "module": "lib/parser",
+      "lines": 262,
+      "bytes": 9386,
+      "hash": "5ae56a0525fb035f843f5c1f46609d75b40bc8e21508740221a5074a54723969",
+      "fanIn": 2,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "RawImport",
+        "extractImports",
+        "WHOLE_MODULE",
+        "extractExports"
+      ]
+    },
+    {
+      "path": "lib/parser/graph.ts",
+      "module": "lib/parser",
+      "lines": 54,
+      "bytes": 1740,
+      "hash": "a811fb5adfa94d164ba1158868f5d0b1cbc518b179abd4078966f85347e1bf2a",
+      "fanIn": 2,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "dedupeEdges",
+        "fanCounts"
+      ]
+    },
+    {
+      "path": "lib/parser/index.ts",
+      "module": "lib/parser",
+      "lines": 278,
+      "bytes": 8993,
+      "hash": "55ad7406fe9aa7611f7f33390cf1832476d326c888e8aa731e198232a1a95d5f",
+      "fanIn": 4,
+      "fanOut": 7,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "Selection",
+        "parseRepository",
+        "selectFiles",
+        "parseSelection"
+      ]
+    },
+    {
+      "path": "lib/parser/resolve.ts",
+      "module": "lib/parser",
+      "lines": 426,
+      "bytes": 13652,
+      "hash": "8387eed43724f543452977182d786c84b3dbd2ca09db1101027e8cf872825530",
+      "fanIn": 1,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "RepositoryIndex",
+        "Resolver",
+        "createResolver"
+      ]
+    },
+    {
+      "path": "lib/parser/types.ts",
+      "module": "lib/parser",
+      "lines": 184,
+      "bytes": 5182,
+      "hash": "e58787849ebfbe93edda303941165879f5ba8b8ae2f3dcab1c8ee819b6679756",
+      "fanIn": 9,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "SCHEMA_VERSION",
+        "EdgeKind",
+        "EDGE_KINDS",
+        "ParsedFile",
+        "Project",
+        "Edge",
+        "Route",
+        "OmittedRoute",
+        "WithheldRoutes",
+        "SkipReason",
+        "SkippedFile",
+        "ExcludedDirectory",
+        "ExternalKind",
+        "ExcludedReason",
+        "UnresolvedReason",
+        "ImportStatus",
+        "UnresolvedImport",
+        "StatusCounts",
+        "Coverage",
+        "ConfigReport",
+        "ParseResult"
+      ]
+    },
+    {
+      "path": "lib/parser/walk.ts",
+      "module": "lib/parser",
+      "lines": 274,
+      "bytes": 8365,
+      "hash": "1685fb068840ae7134147cfeb35cc58490b1ea0f0208b4732387406613622acc",
+      "fanIn": 2,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "CODE_EXTENSIONS",
+        "MAX_FILE_BYTES",
+        "CandidateFile",
+        "WalkResult",
+        "withinProject",
+        "toPosix",
+        "isCodeFile",
+        "isDeclarationFile",
+        "moduleOf",
+        "walkRepository"
+      ]
+    },
+    {
+      "path": "lib/pipeline/github.ts",
+      "module": "lib/pipeline",
+      "lines": 230,
+      "bytes": 7809,
+      "hash": "8e6ef23401e840ae9c03afc75d0f1e6cf19f763813329225fcf39d807cb46d72",
+      "fanIn": 3,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "Repository",
+        "MAX_ARCHIVE_BYTES",
+        "PipelineError",
+        "parseRepositoryUrl",
+        "resolveHeadCommit",
+        "fetchFileAt",
+        "downloadArchive"
+      ]
+    },
+    {
+      "path": "lib/pipeline/run.ts",
+      "module": "lib/pipeline",
+      "lines": 206,
+      "bytes": 6641,
+      "hash": "d35f6f4c2247e6d1c09069bab97bfc29b472558eaa7715fcc70371ef56075c68",
+      "fanIn": 2,
+      "fanOut": 6,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "AlreadyRunningError",
+        "SupersededError",
+        "ClaimedRun",
+        "runAnalysis",
+        "continueRun",
+        "claimAnalysis"
+      ]
+    },
+    {
+      "path": "lib/pipeline/stages.ts",
+      "module": "lib/pipeline",
+      "lines": 47,
+      "bytes": 1642,
+      "hash": "5b105fe5f525c07d9c06ce7e65bb3759e240cbc296b1100a3a0f4297df8d4f5c",
+      "fanIn": 5,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "Status",
+        "Stage",
+        "Progress",
+        "STAGES",
+        "STALE_AFTER_MS",
+        "progressTopic",
+        "isStale"
+      ]
+    },
+    {
+      "path": "lib/pipeline/store.ts",
+      "module": "lib/pipeline",
+      "lines": 110,
+      "bytes": 3681,
+      "hash": "31980f4e39dbb4d74b7d9020bbd4dba19de7686babe6e9a7a5e1e985bac064f4",
+      "fanIn": 1,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "StoredCoverage",
+        "storeResult",
+        "storedCoverage"
+      ]
+    },
+    {
+      "path": "lib/pipeline/submit.ts",
+      "module": "lib/pipeline",
+      "lines": 76,
+      "bytes": 2377,
+      "hash": "242fd74892e67f3fa4b06f9ee9dd42fbe306a1617f0f993e48201cec1a9c4e55",
+      "fanIn": 2,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "Submission",
+        "submitRepository"
+      ]
+    },
+    {
+      "path": "lib/roles.ts",
+      "module": "lib",
+      "lines": 161,
+      "bytes": 5236,
+      "hash": "f9ac835eac5159da00de03097c164222026ad91fe7889524c638f164004ec86d",
+      "fanIn": 10,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "ROLES",
+        "Role",
+        "ROLE_IDS",
+        "MODEL_ROLES",
+        "ModelRole",
+        "isModelRole",
+        "FRAMEWORK_ROLES",
+        "Framework",
+        "UNCLASSIFIED",
+        "RailKey",
+        "railLabel",
+        "railCategories"
+      ]
+    },
+    {
+      "path": "lib/supabase/admin.ts",
+      "module": "lib/supabase",
+      "lines": 20,
+      "bytes": 918,
+      "hash": "075bd982ae3a5c79456039b85703c3e77d8a0ba897ce44a28cbf51fb4ad6ffbc",
+      "fanIn": 2,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "createAdminSupabase"
+      ]
+    },
+    {
+      "path": "lib/supabase/client.ts",
+      "module": "lib/supabase",
+      "lines": 30,
+      "bytes": 1235,
+      "hash": "e0cce63793a528ee6880335be98999911c98d74078d2fe6c77ef2c4c7fe89a50",
+      "fanIn": 1,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "useBrowserSupabase"
+      ]
+    },
+    {
+      "path": "lib/supabase/database.types.ts",
+      "module": "lib/supabase",
+      "lines": 461,
+      "bytes": 13542,
+      "hash": "ab7d9815ff8622c0a320ab37c0afad9715ae549603f89198999b063e5f7961be",
+      "fanIn": 7,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "Json",
+        "Database",
+        "Enums"
+      ]
+    },
+    {
+      "path": "lib/supabase/server.ts",
+      "module": "lib/supabase",
+      "lines": 18,
+      "bytes": 732,
+      "hash": "480fe9911a0b3a43db5c9d11a67d5bc6a13845c7f200bc6b452c8286e38c806f",
+      "fanIn": 2,
+      "fanOut": 2,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "createServerSupabase"
+      ]
+    },
+    {
+      "path": "lib/theme.ts",
+      "module": "lib",
+      "lines": 17,
+      "bytes": 864,
+      "hash": "d05e73ea0c2d74a7bc80973812ca27763215be5ffde0395490e816923a2b0512",
+      "fanIn": 3,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "THEME_COOKIE",
+        "THEME_COOKIE_MAX_AGE",
+        "THEMES",
+        "Theme",
+        "parseTheme",
+        "themeInitScript"
+      ]
+    },
+    {
+      "path": "lib/time.ts",
+      "module": "lib",
+      "lines": 21,
+      "bytes": 571,
+      "hash": "0c1c697573d98396b87bb6757a599128330790866d95034e934ab90fa6728d99",
+      "fanIn": 1,
+      "fanOut": 0,
+      "reachedBy": null,
+      "role": null,
+      "exports": [
+        "ago"
+      ]
+    },
+    {
+      "path": "next.config.ts",
+      "module": ".",
+      "lines": 17,
+      "bytes": 318,
+      "hash": "17145a9822ec351b92b8a5f8d3a709a531c8690ed92d397a4405ae084ea9acc7",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": "config file, loaded by its tool",
+      "role": "config",
+      "exports": [
+        "default"
+      ]
+    },
+    {
+      "path": "proxy.ts",
+      "module": ".",
+      "lines": 38,
+      "bytes": 1224,
+      "hash": "688a4ae708226ff0b9a3b017fd32990ddbdf4f782599e825542852799eb6c525",
+      "fanIn": 0,
+      "fanOut": 0,
+      "reachedBy": "Next.js proxy",
+      "role": "middleware",
+      "exports": [
+        "default",
+        "config"
+      ]
+    },
+    {
+      "path": "scripts/analyze.ts",
+      "module": "scripts",
+      "lines": 75,
+      "bytes": 2452,
+      "hash": "eeab3ab4f810bb66fe85be09d22241425af88052544c94c298f701b7c8b45251",
+      "fanIn": 0,
+      "fanOut": 3,
+      "reachedBy": null,
+      "role": null,
+      "exports": []
+    },
+    {
+      "path": "scripts/insights.ts",
+      "module": "scripts",
+      "lines": 68,
+      "bytes": 2632,
+      "hash": "8740a2a460de064b2f357e4b14e87a88826d36e08e6b26089c50e0a58a9a15b7",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": []
+    },
+    {
+      "path": "scripts/map-counts.ts",
+      "module": "scripts",
+      "lines": 80,
+      "bytes": 2661,
+      "hash": "c4839b7dda3053561fb4df6b6dbbf2b2cb65aca48530331c70068234b357cf87",
+      "fanIn": 0,
+      "fanOut": 1,
+      "reachedBy": null,
+      "role": null,
+      "exports": []
+    },
+    {
+      "path": "scripts/parser.ts",
+      "module": "scripts",
+      "lines": 208,
+      "bytes": 7998,
+      "hash": "b8429f93ba39a0dee19102a183a2741ebd80df4080513a24bd5f8c4a0a274339",
+      "fanIn": 0,
+      "fanOut": 4,
+      "reachedBy": null,
+      "role": null,
+      "exports": []
+    },
+    {
+      "path": "tests/parser.test.mts",
+      "module": "tests",
+      "lines": 321,
+      "bytes": 9799,
+      "hash": "c9ca1a7876d6c9c8be14bfca0d52ee27f2d1e0eb6cebd4c36d01175c390c40b6",
+      "fanIn": 0,
+      "fanOut": 5,
+      "reachedBy": "test file, collected by the test runner",
+      "role": "test",
+      "exports": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/env.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/env",
+      "line": 7
+    },
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/pipeline/github.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/github",
+      "line": 8
+    },
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/pipeline/run.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/run",
+      "line": 9
+    },
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/pipeline/submit.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/submit",
+      "line": 15
+    },
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/supabase/admin.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/supabase/admin",
+      "line": 16
+    },
+    {
+      "source": "app/(workspace)/action.ts",
+      "target": "lib/supabase/server.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/supabase/server",
+      "line": 17
+    },
+    {
+      "source": "app/(workspace)/layout.tsx",
+      "target": "components/theme-control.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/theme-control",
+      "line": 5
+    },
+    {
+      "source": "app/(workspace)/layout.tsx",
+      "target": "lib/theme.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/theme",
+      "line": 6
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "components/progress/analysis-row.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/progress/analysis-row",
+      "line": 3
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "components/state-mark.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/state-mark",
+      "line": 4
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "components/submit-form.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/submit-form",
+      "line": 5
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "lib/pipeline/stages.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/stages",
+      "line": 6
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "lib/supabase/server.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/supabase/server",
+      "line": 7
+    },
+    {
+      "source": "app/(workspace)/page.tsx",
+      "target": "lib/time.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/time",
+      "line": 8
+    },
+    {
+      "source": "app/layout.tsx",
+      "target": "lib/theme.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/theme",
+      "line": 5
+    },
+    {
+      "source": "app/start/activate.tsx",
+      "target": "app/start/action.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./action",
+      "line": 9
+    },
+    {
+      "source": "app/start/activate.tsx",
+      "target": "components/brand.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/brand",
+      "line": 7
+    },
+    {
+      "source": "app/start/page.tsx",
+      "target": "app/start/activate.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./activate",
+      "line": 4
+    },
+    {
+      "source": "components/auth-shell.tsx",
+      "target": "components/brand.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./brand",
+      "line": 4
+    },
+    {
+      "source": "components/invite-form.tsx",
+      "target": "app/(workspace)/action.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/app/(workspace)/action",
+      "line": 5
+    },
+    {
+      "source": "components/progress/analysis-row.tsx",
+      "target": "components/progress/use-progress.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./use-progress",
+      "line": 6
+    },
+    {
+      "source": "components/progress/analysis-row.tsx",
+      "target": "components/state-mark.tsx",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/components/state-mark",
+      "line": 4
+    },
+    {
+      "source": "components/progress/analysis-row.tsx",
+      "target": "lib/pipeline/stages.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/stages",
+      "line": 5
+    },
+    {
+      "source": "components/progress/use-progress.ts",
+      "target": "lib/pipeline/stages.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/pipeline/stages",
+      "line": 4
+    },
+    {
+      "source": "components/progress/use-progress.ts",
+      "target": "lib/supabase/client.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/supabase/client",
+      "line": 10
+    },
+    {
+      "source": "components/state-mark.tsx",
+      "target": "lib/pipeline/stages.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "@/lib/pipeline/stages",
+      "line": 1
+    },
+    {
+      "source": "components/submit-form.tsx",
+      "target": "app/(workspace)/action.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/app/(workspace)/action",
+      "line": 4
+    },
+    {
+      "source": "components/theme-control.tsx",
+      "target": "lib/theme.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/theme",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/adapters/docusaurus.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/docusaurus.ts",
+      "target": "lib/parser/adapters/react.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./react.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/parser/adapters/docusaurus.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./types.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/adapters/docusaurus.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/adapters/express.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/express.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/parser/adapters/express.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/adapters/fallback.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/adapters/fallback.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./types.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/docusaurus.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./docusaurus.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/express.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./express.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/fallback.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./fallback.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/nestjs.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./nestjs.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/nextjs.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./nextjs.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/react.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./react.ts",
+      "line": 6
+    },
+    {
+      "source": "lib/parser/adapters/index.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 7
+    },
+    {
+      "source": "lib/parser/adapters/nestjs.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 9
+    },
+    {
+      "source": "lib/parser/adapters/nestjs.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 10
+    },
+    {
+      "source": "lib/parser/adapters/nestjs.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 8
+    },
+    {
+      "source": "lib/parser/adapters/nextjs.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/parser/adapters/nextjs.ts",
+      "target": "lib/parser/adapters/react.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./react.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/adapters/nextjs.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/parser/adapters/nextjs.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/react.ts",
+      "target": "lib/parser/adapters/conventions.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./conventions.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/parser/adapters/react.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./types.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/adapters/react.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/adapters/types.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../../roles.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/contract.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./types.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/contract.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../roles.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/extract.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/parser/graph.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/adapters/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./adapters/types.ts",
+      "line": 19
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/extract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./extract.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/graph.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./graph.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/resolve.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./resolve.ts",
+      "line": 6
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./types.ts",
+      "line": 7
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "re-export",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 278
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/parser/walk.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./walk.ts",
+      "line": 20
+    },
+    {
+      "source": "lib/parser/index.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../roles.ts",
+      "line": 18
+    },
+    {
+      "source": "lib/parser/resolve.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/parser/resolve.ts",
+      "target": "lib/parser/walk.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./walk.ts",
+      "line": 12
+    },
+    {
+      "source": "lib/parser/types.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../roles.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/walk.ts",
+      "target": "lib/parser/adapters/fallback.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./adapters/fallback.ts",
+      "line": 4
+    },
+    {
+      "source": "lib/parser/walk.ts",
+      "target": "lib/parser/adapters/index.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./adapters/index.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/parser/walk.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./types.ts",
+      "line": 6
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/parser/index.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../parser/index.ts",
+      "line": 5
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../parser/types.ts",
+      "line": 6
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/pipeline/github.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./github.ts",
+      "line": 8
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/pipeline/stages.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./stages.ts",
+      "line": 13
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/pipeline/store.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./store.ts",
+      "line": 14
+    },
+    {
+      "source": "lib/pipeline/run.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../supabase/database.types.ts",
+      "line": 7
+    },
+    {
+      "source": "lib/pipeline/stages.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../supabase/database.types.ts",
+      "line": 1
+    },
+    {
+      "source": "lib/pipeline/store.ts",
+      "target": "lib/parser/index.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../parser/index.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/pipeline/store.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../supabase/database.types.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/pipeline/submit.ts",
+      "target": "lib/pipeline/github.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "./github.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/pipeline/submit.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../supabase/database.types.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/supabase/admin.ts",
+      "target": "lib/env.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../env.ts",
+      "line": 2
+    },
+    {
+      "source": "lib/supabase/admin.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./database.types.ts",
+      "line": 3
+    },
+    {
+      "source": "lib/supabase/client.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./database.types",
+      "line": 6
+    },
+    {
+      "source": "lib/supabase/server.ts",
+      "target": "lib/env.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "@/lib/env",
+      "line": 3
+    },
+    {
+      "source": "lib/supabase/server.ts",
+      "target": "lib/supabase/database.types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "./database.types",
+      "line": 4
+    },
+    {
+      "source": "scripts/analyze.ts",
+      "target": "lib/pipeline/run.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/pipeline/run.ts",
+      "line": 7
+    },
+    {
+      "source": "scripts/analyze.ts",
+      "target": "lib/pipeline/submit.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/pipeline/submit.ts",
+      "line": 8
+    },
+    {
+      "source": "scripts/analyze.ts",
+      "target": "lib/supabase/admin.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/supabase/admin.ts",
+      "line": 9
+    },
+    {
+      "source": "scripts/insights.ts",
+      "target": "lib/parser/contract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/contract.ts",
+      "line": 9
+    },
+    {
+      "source": "scripts/map-counts.ts",
+      "target": "lib/parser/contract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/contract.ts",
+      "line": 15
+    },
+    {
+      "source": "scripts/parser.ts",
+      "target": "lib/parser/contract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/contract.ts",
+      "line": 11
+    },
+    {
+      "source": "scripts/parser.ts",
+      "target": "lib/parser/index.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/index.ts",
+      "line": 15
+    },
+    {
+      "source": "scripts/parser.ts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../lib/parser/types.ts",
+      "line": 16
+    },
+    {
+      "source": "scripts/parser.ts",
+      "target": "lib/roles.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/roles.ts",
+      "line": 21
+    },
+    {
+      "source": "tests/parser.test.mts",
+      "target": "lib/parser/contract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/contract.ts",
+      "line": 14
+    },
+    {
+      "source": "tests/parser.test.mts",
+      "target": "lib/parser/extract.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/extract.ts",
+      "line": 19
+    },
+    {
+      "source": "tests/parser.test.mts",
+      "target": "lib/parser/graph.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/graph.ts",
+      "line": 20
+    },
+    {
+      "source": "tests/parser.test.mts",
+      "target": "lib/parser/index.ts",
+      "kind": "import",
+      "typeOnly": false,
+      "specifier": "../lib/parser/index.ts",
+      "line": 21
+    },
+    {
+      "source": "tests/parser.test.mts",
+      "target": "lib/parser/types.ts",
+      "kind": "import",
+      "typeOnly": true,
+      "specifier": "../lib/parser/types.ts",
+      "line": 22
+    }
+  ],
+  "routes": [],
+  "coverage": {
+    "files": {
+      "found": 59,
+      "parsed": 57,
+      "skipped": 2,
+      "skippedFiles": [
+        {
+          "path": "next-env.d.ts",
+          "reason": "declaration-file",
+          "detail": "types only, no runtime imports"
+        },
+        {
+          "path": "types/globals.d.ts",
+          "reason": "declaration-file",
+          "detail": "types only, no runtime imports"
+        }
+      ],
+      "excludedDirectories": [
+        {
+          "path": ".agents",
+          "reason": "dot-directory"
+        },
+        {
+          "path": ".aider-desk",
+          "reason": "dot-directory"
+        },
+        {
+          "path": ".cartograph",
+          "reason": "dot-directory"
+        },
+        {
+          "path": ".gemini",
+          "reason": "dot-directory"
+        },
+        {
+          "path": ".git",
+          "reason": "dot-directory"
+        },
+        {
+          "path": ".next",
+          "reason": "dot-directory"
+        },
+        {
+          "path": "node_modules",
+          "reason": "dependency directory"
+        }
+      ]
+    },
+    "imports": {
+      "total": {
+        "seen": 190,
+        "internal": 103,
+        "external": 82,
+        "excluded": 1,
+        "unresolved": 4
+      },
+      "byKind": {
+        "import": {
+          "seen": 189,
+          "internal": 102,
+          "external": 82,
+          "excluded": 1,
+          "unresolved": 4
+        },
+        "re-export": {
+          "seen": 1,
+          "internal": 1,
+          "external": 0,
+          "excluded": 0,
+          "unresolved": 0
+        },
+        "dynamic-import": {
+          "seen": 0,
+          "internal": 0,
+          "external": 0,
+          "excluded": 0,
+          "unresolved": 0
+        },
+        "require": {
+          "seen": 0,
+          "internal": 0,
+          "external": 0,
+          "excluded": 0,
+          "unresolved": 0
+        }
+      },
+      "external": {
+        "package": 60,
+        "builtin": 22,
+        "outside-root": 0
+      },
+      "excluded": {
+        "non-code-file": 1
+      },
+      "unresolvedByReason": {
+        "file-not-found": 4
+      },
+      "unresolved": [
+        {
+          "from": "scripts/insights.ts",
+          "specifier": "../lib/graph/insights.ts",
+          "kind": "import",
+          "line": 7,
+          "reason": "file-not-found",
+          "detail": "no file at lib/graph/insights.ts"
+        },
+        {
+          "from": "scripts/insights.ts",
+          "specifier": "../lib/graph/reach.ts",
+          "kind": "import",
+          "line": 8,
+          "reason": "file-not-found",
+          "detail": "no file at lib/graph/reach.ts"
+        },
+        {
+          "from": "scripts/map-counts.ts",
+          "specifier": "../lib/graph/fold.ts",
+          "kind": "import",
+          "line": 8,
+          "reason": "file-not-found",
+          "detail": "no file at lib/graph/fold.ts"
+        },
+        {
+          "from": "scripts/map-counts.ts",
+          "specifier": "../lib/graph/view.ts",
+          "kind": "import",
+          "line": 9,
+          "reason": "file-not-found",
+          "detail": "no file at lib/graph/view.ts"
+        }
+      ]
+    },
+    "routes": {
+      "omitted": [],
+      "withheld": []
+    }
+  },
+  "configs": [
+    {
+      "path": "tsconfig.json",
+      "errors": []
+    }
+  ]
+}
